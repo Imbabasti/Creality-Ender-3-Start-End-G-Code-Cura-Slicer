@@ -1,6 +1,7 @@
 # Creality-Ender-3-Start/End-G-Code-Cura-Slicer
 Meine Creality Ender-3 Start und Ende G-Codes für den Cura-Slicer
 
+Als Ender-3 Firmware nutze ich die Marlin bugfix-2.1.x !!!
 
 
 # Start G-Code Auto-Bed-Leveling + Noozle-Clean-Brusch
