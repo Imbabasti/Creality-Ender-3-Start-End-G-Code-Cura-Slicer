@@ -12,7 +12,7 @@ G28     					;home XYZ axes
 G29 						;execute Auto Bed Leveling
 M211 S0 					;disable travel limits
 G90						;absolute movement
-G0 X245 F9000					;nozzle cleaning brush start
+G0 X245 F9000					;nozzle cleaning brush 10 times start
 G0 X230 F9000						
 G0 X245 F9000					
 G0 X230 F9000
@@ -22,8 +22,16 @@ G0 X245 F9000
 G0 X230 F9000
 G0 X245 F9000
 G0 X230 F9000
-G0 X100 F9000				
-G0 X230 F9000					;nozzle cleaning brush end														
+G0 X245 F9000	
+G0 X230 F9000
+G0 X245 F9000
+G0 X230 F9000
+G0 X245 F9000
+G0 X230 F9000
+G0 X245 F9000
+G0 X230 F9000
+G0 X245 F9000
+G0 X230 F9000					;nozzle cleaning brush 10 times end														
 M211 S1 					;enable travel limits
 G1 Z5 F400 					;move Z
 G1 X0 Y0 F3000  				;move to corner to ooze as the hot end heats the rest of the way.
